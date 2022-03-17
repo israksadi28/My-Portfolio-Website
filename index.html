@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="index.html" class="logo">Israk Ahmed</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- Home -->
+
+    <section class="home" id="home">
+        <div class="social">
+            <a href="http://github.com/israksadi28"><i class='bx bxl-github bx-md'></i></a>
+            <a href="https://www.linkedin.com/in/israk-ahmed-0b5587227/"><i class='bx bxl-linkedin bx-md'></i></a>
+            <!-- <a href=""><i class='bx bxl-facebook-circle bx-md'></i></a> -->
+        </div>
+        <div class="home-img">
+            <img src="img/Israk_crop.jpg" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Israk Ahmed</h1>
+            <h2>Frontend Developer</h2>
+            <p>Click through the sections to know about me.</p>
+            <a href="#contact" class="btn">Contact Me</a>
+        </div>
+
+        <div class="scroll-down">
+            <a href="#about">
+                <i class='bx bx-mouse'></i>
+                <span>Scroll Down</span>
+                <i class='bx bxs-down-arrow-alt'></i>
+            </a>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About</h2>
+        </div>
+        <!-- About Content -->
+        <div class="about-container">
+            <div class="education">
+                <h3>Educational Background</h3>
+                <table class="table-fill">
+                    <thead>
+                        <tr>
+                            <th>Institute</th>
+                            <th>Grade</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-hover">
+                        <tr>
+                            <td>Biam Model School & College(SSC)</td>
+                            <td>5.0/5.0</td>
+                        </tr>
+                        <tr>
+                            <td>Dhaka Residential Model College(HSC)</td>
+                            <td>5.0/5.0</td>
+                        </tr>
+                        <tr>
+                            <td>East West University(BSc in CSE)</td>
+                            <td>3.46/4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="about-text">
+                <p>Israk here. I'm a recent graduate from East West
+                    University, Bangladesh. I've completed my
+                    Bachelor's degree in Computer Science and Engineering.
+                    I exude a can-do attitude with a propensity for precision. I'm looking for an opportunity to
+                    expand and improve upon my skills as well as thrive at and uplift any organization I may become a
+                    member of. Check out my resume for more details. </p>
+                <div class="information">
+                    <!-- Box 1 -->
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Israk Ahmed</span>
+                    </div>
+                    <!-- Box 2 -->
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>+8801732576837</span>
+                    </div>
+                    <!-- Box 3 -->
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>israksadi28@gmail.com</span>
+                    </div>
+                </div>
+                <a href="https://drive.google.com/file/d/1V6r4qsIkFe55o8C7ptI5K8lN6zEIbStQ/view?usp=sharing"
+                    class="btn">View Resume</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>My Skills</h2>
+        </div>
+        <!-- Skills Content -->
+        <div class="skills-container">
+            <div class="bars">
+                <!-- Box 1 -->
+                <div class="bars-box">
+                    <h3>HTML5</h3>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <!-- Box 2 -->
+                <div class="bars-box">
+                    <h3>CSS3</h3>
+                    <span>92%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <!-- Box 3 -->
+                <div class="bars-box">
+                    <h3>JavaScript (ES6+)</h3>
+                    <span>83%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <!-- Box 4 -->
+                <div class="bars-box">
+                    <h3>SQL</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar sql-bar"></div>
+                </div>
+            </div>
+            <div class="skills-img">
+                <img src="img/skills4.png" alt="">
+            </div>
+        </div>
+
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>My Services</h2>
+        </div>
+        <div class="services-content">
+            <!-- Box 1 -->
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web <br>Development</h3>
+            </div>
+            <!-- Box 2 -->
+            <div class="services-box">
+                <i class='bx bx-server'></i>
+                <h3>Frontend <br>Development</h3>
+            </div>
+            <!-- Box 3 -->
+            <div class="services-box">
+                <i class='bx bx-brush'></i>
+                <h3>Web<br>Design</h3>
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="portfolio" id="portfolio">
+        <div class="heading">
+            <h2>My Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="portfolio-img">
+                <a href="https://israksadi28.github.io/Photo-Grid-using-CSS-grid/index.html"><img src="img/p1.jpg"
+                        alt=""></a>
+            </div>
+            <div class="portfolio-img">
+                <a href="#"><img src="img/p2.jpg" alt=""></a>
+            </div>
+            <div class="portfolio-img">
+                <a href="https://israksadi28.github.io/Movies-and-TV-Guide-Website/home.html"><img src="img/p3.jpg"
+                        alt=""></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>My Socials</h2>
+        <div class="footer-social">
+            <a href="https://facebook.com/israks1/"><i class='bx bxl-facebook'></i></a>
+            <a href="https://www.instagram.com/israksadi28/"><i class='bx bxl-instagram'></i></a>
+
+        </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; Israk Ahmed All Right Reserved.</p>
+    </div>
+
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+
+</html>
