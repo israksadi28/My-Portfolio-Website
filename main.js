@@ -34,6 +34,7 @@ talkForm.addEventListener("submit", (e) => {
   }).then((res) => {
     if (res) {
       alert("Thanks for your message. 😊");
+      document.location.reload();
     }
   });
 });
