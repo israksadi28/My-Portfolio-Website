@@ -210,13 +210,14 @@
             <h2>Contact</h2>
         </div>
         <div class="contact-form">
-            <form action="">
+            <form method="post" data-netlify-recaptcha="true" netlify-honeypot="hpfield" data-netlify="true">
                 <label for="name">Name </label>
                 <input type="text" name="name" id="name" placeholder="Your Name">
-                <label for="name">Email </label>
-                <input type="email" name="" id="" placeholder="Your Email">
-                <label for="name">Message </label>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                <label for="email">Email </label>
+                <input type="email" name="email" id="email" placeholder="Your Email">
+                <label for="message">Message </label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message Here..."></textarea>
+                <div data-netlify-recaptcha="true"></div>
                 <input type="submit" id="new-btn" value="Submit" class="contact-button">
             </form>
         </div>
