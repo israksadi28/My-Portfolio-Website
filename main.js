@@ -2,6 +2,7 @@
 let header = document.querySelector("header");
 let menu = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
+let newBtn = document.querySelector("#new-btn");
 
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
@@ -13,6 +14,10 @@ menu.onclick = () => {
 window.onscroll = () => {
   navbar.classList.remove("active");
 };
+
+newBtn.addEventListener("click", () => {
+  alert("Thank you 😊. Your Message has been submitted!");
+});
 
 // Dark Mode
 let darkmode = document.querySelector("#darkmode");
