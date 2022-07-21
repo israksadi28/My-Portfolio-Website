@@ -5,6 +5,17 @@ let navbar = document.querySelector(".navbar");
 let newBtn = document.querySelector("#new-btn");
 let talkForm = document.querySelector("#contact form");
 
+var typed = new Typed(".auto-type", {
+  strings: [
+    "Hello, I'm Israk Ahmed.",
+    "Welcome to my Portfolio Website.",
+    "Click through the sections to know about me.",
+  ],
+  typeSpeed: 28,
+  backSpeed: 15,
+  loop: true,
+});
+
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
 });
