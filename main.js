@@ -11,7 +11,7 @@ var typed = new Typed(".auto-type", {
     "Welcome to my Portfolio Website.",
     "Click through the sections to know about me.",
   ],
-  typeSpeed: 28,
+  typeSpeed: 30,
   backSpeed: 15,
   loop: true,
 });
