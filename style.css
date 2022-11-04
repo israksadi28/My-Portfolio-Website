@@ -305,12 +305,13 @@ span {
 .portfolio-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-  gap: 1rem;
+  gap: 25px;
   margin-top: 2rem;
+  justify-content: space-evenly;
 }
 .portfolio-img {
   overflow: hidden;
-  border-radius: 3%;
+  border-radius: 15px;
   box-shadow: 0 2px 7px purple;
 }
 .portfolio-img img {
@@ -563,6 +564,7 @@ td {
   }
   .skills-img img {
     padding-left: 0;
+    margin-right: 45px;
   }
   .skills-img {
     padding-top: 2rem;
