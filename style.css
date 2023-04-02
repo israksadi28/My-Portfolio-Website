@@ -288,7 +288,7 @@ span {
   border-radius: 0.5rem;
 }
 .html-bar {
-  width: 98%;
+  width: 97%;
 }
 .css-bar {
   width: 96%;
@@ -297,7 +297,7 @@ span {
   width: 94%;
 }
 .sql-bar {
-  width: 92%;
+  width: 98%;
 }
 .services-content {
   display: grid;
